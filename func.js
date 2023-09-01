@@ -7,3 +7,13 @@ for(let item of number){
   return sum += item[number]
 }
 console.log(sum)
+
+let obj = {
+  name: "sajad",
+  lastName: "ahmadnzhad",
+  age: 18
+}
+
+for(let item in obj) {
+  return console.log(obj[item])
+}

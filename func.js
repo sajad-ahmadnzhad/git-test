@@ -17,3 +17,5 @@ let obj = {
 let func = (number) => number**2
 
 consloe.log(func(12))
+
+let loginUser = () => true

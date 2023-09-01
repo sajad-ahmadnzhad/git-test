@@ -33,4 +33,4 @@ let funcArrow = (array) => {
     return sum
 }
 
-console.log(funcArrow(array)) // result [11 , 12 , 13 , 14, 15 , 16]
+console.log(funcArrow(array)) 

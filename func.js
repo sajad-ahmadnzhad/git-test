@@ -13,7 +13,3 @@ let obj = {
   lastName: "ahmadnzhad",
   age: 18
 }
-
-for(let item in obj) {
-  return console.log(obj[item])
-}

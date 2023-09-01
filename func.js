@@ -13,3 +13,7 @@ let obj = {
   lastName: "ahmadnzhad",
   age: 18
 }
+
+let func = (number) => number**2
+
+consloe.log(func(12))

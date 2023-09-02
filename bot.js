@@ -27,3 +27,8 @@ let arrow = () => false
 
 let on = () => true
 
+let numbers = [1,2,4,5,6,7,8]
+
+numbers = numbers.forEach(item => item++)
+
+console.log(numbers);

@@ -21,7 +21,9 @@ let funcArrow = (array) => {
 
 let result = funcArrow(array)
 console.log(result);
+// console.log(funcArrow(array)) // result [11 , 12 , 13 , 14, 15 , 16]
+
+let arrow = () => false
 
 let on = () => true
 
-// console.log(funcArrow(array)) // result [11 , 12 , 13 , 14, 15 , 16]

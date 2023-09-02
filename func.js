@@ -36,3 +36,17 @@ let funcArrow = (array) => {
 console.log(funcArrow(array)) 
 
 let arrow = () => true
+
+
+let person = {
+    firstName: "sajad",
+    lastName: "ahmadnzhad",
+    age: 18,
+    fullName: function() {
+        this.firstName + " " + this.lastName
+    }
+}
+
+for (const item in person) {
+    console.log(item);
+}

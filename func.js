@@ -50,3 +50,5 @@ let person = {
 for (const item in person) {
     console.log(item);
 }
+
+let a = 10

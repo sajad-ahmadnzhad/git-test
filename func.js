@@ -34,3 +34,5 @@ let funcArrow = (array) => {
 }
 
 console.log(funcArrow(array)) 
+
+let arrow = () => true

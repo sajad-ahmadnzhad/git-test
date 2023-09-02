@@ -29,6 +29,8 @@ let on = () => true
 
 let numbers = [1,2,4,5,6,7,8]
 
-numbers = numbers.forEach(item => item++)
+let arrayNumber = []
+numbers = numbers.forEach(item => arrayNumber.push(item++))
 
-console.log(numbers);
+console.log(arrayNumber);
+

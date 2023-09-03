@@ -94,3 +94,4 @@ console.log(result);
 `hello`
 
 <h1> hello i am senior back end developer</h1>
+<a href="www.google.com">go to google</a>

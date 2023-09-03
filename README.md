@@ -1,39 +1,98 @@
-# من چه کسی هستم؟👨‍💻
+![img node js](https://www.mindinventory.com/blog/wp-content/uploads/2022/10/nodejs-8.jpeg)
 
-<img align="center" src="https://raw.githubusercontent.com/imrrobat/imrrobat/d1b244e170d2b75fdda3efd499eaaf163f7a617c/images/github-contribution-grid-snake.svg" />
 
-<h2 align="center">سلام 🖐 من سجاد احمدنژاد هستم</h2>
-<p align="center">
-  برنامه نویس بک اند 🖥 دانشجوی رشته مهندسی کامپیوتر 👨‍💻 و عاشق دنیای جاوا اسکریپت ✌️
-</p>
+**hello**
+---
+__hello__
 
-<br />
+*hello*
+_hello_
+~~hello~~
 
-<h2 align"right">ابزار هایی که استفاده می‌کنم 💪</h2>
+>hello
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+>>hello
 
-<br />
+>>>hello
 
-<h2 align="right">تماس با من 📞</h2>
-<a href="https://instagram.com/rad_front"><img width="50px" height="50px" align="left" src="https://github.com/sabzlearn-ir/sabzlearn-ir/blob/main/icons8-instagram-96.png?raw=true" alt="Instagram" /></a>
-<a href="https://t.me/aminkhoy78"><img width="50px" height="50px"  align="left" src="https://github.com/sabzlearn-ir/sabzlearn-ir/blob/main/icons8-telegram-96.png?raw=true" alt="Telegram" /></a>
++ hello i am sajad `yes` , `no`
+- senior back end
++ hello
 
-<br />
+1. node js 
+2. react js 
+3. vue js 
 
-<h2 align="right">الان به چه کار هایی مشغول هستم 🌚</h2>
+---
 
- <h3 align="right">🌟 توسعه بک‌اند آکادمی سبزلرن</h3>
- <h3 align="right">🌟 تدریس دوره گیت و گیت‌هاب</h3>
- <h3 align="right">🌟 تولید محتوا</h3>
- <h3 align="right">🌟 توسعه فرانت‌اند سایت Onlyjs</h3>
+33. hello
+1. hi
 
-<br />
+***
 
-<h2 align="right">الان دارم با اینا کار می‌کنم 👨‍💻</h2>
+`hello`
 
-<h3 align="left">🖥 JavaScript | 80%</h3> <img width="400px" src="https://github.com/sabzlearn-ir/sabzlearn-ir/blob/main/bar.png?raw=true" />
+```javascript
+let array = [1,2,3,4,5,6 , 10]
+// for(let item of array ) {
+//     console.log(array[item])
+// }
 
-<br />
+let funcArrow = (array) => {
+    let sum = 0
+    for (let i = 0; i < array.length; i++) sum += array[i]
+    
+    for(let item of array) sum += item
 
-<h3 align="left">🖥 React Js | 50%</h3> <img width="250px" src="https://github.com/sabzlearn-ir/sabzlearn-ir/blob/main/bar.png?raw=true" />
+    array.forEach(item => sum += item);
+
+    array.reduce((a,b) => sum += b)
+    
+    array.map(item => sum += item)
+
+    return sum
+}
+
+
+let result = funcArrow(array)
+console.log(result);
+// console.log(funcArrow(array)) // result 154
+
+```
+
+| option | description |
+| -------- | ------- |
+| if | condition in javascript |
+
+| option | description |
+| --------: | -------: |
+| for | lop in javascript |
+
+
+[nodejs.com](https://node.com)
+
+![img](https://nodejs.com)
+---
+
+
+`hello sajad i am senior back end developer`
+###### hello
+### hi i am sajad
+### [Emojies](https://github.com/markdown-it/markdown-it-emoji)
+
+> Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:
+>
+> Shortcuts (emoticons): :-) :-( 8-) ;)
+
+
+*[hello]: hello sjad
+
+::: warning
+*here be dragons*
+:::
+
+`hello`
+
+<h1> hello i am senior back end developer</h1>
+<a href="www.google.com">go to google</a>
+<p>node js run time javaScript</p>

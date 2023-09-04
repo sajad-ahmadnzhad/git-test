@@ -29,6 +29,12 @@ let on = () => true
 
 let numbers = [1,2,4,5,6,7,8]
 
+let data = [
+    'node js',
+    'react js',
+    'veu js'
+]
+
 let arrayNumber = []
 numbers = numbers.forEach(item => arrayNumber.push(item++))
 

@@ -26,6 +26,7 @@ console.log(result);
 let arrow = () => false
 
 let on = () => true
+let online = () => console.log('hello')
 
 let numbers = [1,2,4,5,6,7,8]
 

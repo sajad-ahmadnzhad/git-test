@@ -1,23 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <style>
-        h1{
-            color: aqua;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
-        body{
-            background-color: antiquewhite;
-        }
-    </style>
-    <h1>hello welcome to main page</h1>
-</body>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/icofont.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/script.js"></script>
+    <title>Sabzlearn | Js | 200</title>
+  </head>
+  <body>
+    <button id="click_Run_slider">اجرای خودکار اسلایدر</button>
+    <h2 id="speedSlider">سرعت اسلایدر را انتخاب نمایید</h2>
+    <button class="speedSeconds" data-="2">2 ثانیه</button>
+    <button class="speedSeconds" data-="5">5 ثانیه</button>
+    <button class="speedSeconds" data-="10">10 ثانیه</button>
+    <div class="container-slider">
+      <div class="slider">
+        <div class="slider-item active">
+          <img src="image/1.jpg" class="img-slider" />
+        </div>
+        <button type="button" class="prev" ><i class="icofont icofont-ui-previous"></i></button>
+        <button type="button" class="next" ><i class="icofont icofont-ui-next"></i></button>
+      </div>
+    </div>
+  </body>
 </html>

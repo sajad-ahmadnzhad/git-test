@@ -51,7 +51,7 @@ let timeInterval = 1000
     })
   })
 
-let interval;
+let interval = null
 slider.addEventListener('click' , () => {
   if (flag) {
     interval = setInterval(() => nextimg_Hndler(), timeInterval)
